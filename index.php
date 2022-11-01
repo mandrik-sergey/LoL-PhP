@@ -1,0 +1,198 @@
+<?php
+//
+//$_SESSION['name_img'] = "";
+
+//$images = array(
+//    "Aatrox.jpg",
+//    "Ahri.jpg",
+//    "Akali.jpg",
+//    "Akshan.jpg",
+//    "Alistar.jpg",
+//    "Amumu.jpg",
+//    "Anivia.jpg",
+//    "Aphelios.jpg",
+//    "Ashe.jpg",
+//    "AurelionSol.jpg",
+//    "Azir.jpg",
+//    "Bard.jpg",
+//    "Belveth.jpg",
+//    "Blitzcrank.jpg",
+//    "Brand.jpg",
+//    "Braum.jpg",
+//    "Caitlyn.jpg",
+//    "Camille.jpg",
+//    "Cassiopeia.jpg",
+//    "Chogath.jpg",
+//    "Corki.jpg",
+//    "Darius.jpg",
+//    "Diana.jpg",
+//    "Draven.jpg",
+//    "Ekko.jpg",
+//    "Elise.jpg",
+//    "Evelynn.jpg",
+//    "Ezreal.jpg",
+//    "Fiddlesticks.jpg",
+//    "Fiora.jpg",
+//    "Fizz.jpg",
+//    "Galio.jpg",
+//    "Gangplank.jpg",
+//    "Garen.jpg",
+//    "Gnar.jpg",
+//    "Gragas.jpg",
+//    "Graves.jpg",
+//    "Gwen.jpg",
+//    "Hecarim.jpg",
+//    "Heimerdinger.jpg",
+//    "Illaoi.jpg",
+//    "Irelia.jpg",
+//    "Ivern.jpg",
+//    "Janna.jpg",
+//    "JarvanIV.jpg",
+//    "Jax.jpg",
+//    "Jayce.jpg",
+//    "Jhin.jpg",
+//    "Jinx.jpg",
+//    "Kaisa.jpg",
+//    "Kalista.jpg",
+//    "Karma.jpg",
+//    "Karthus.jpg",
+//    "Kassadin.jpg",
+//    "Katarina.jpg",
+//    "Kayle.jpg",
+//    "Kayn.jpg",
+//    "Kennen.jpg",
+//    "Khazix.jpg",
+//    "Kindred.jpg",
+//    "Kled.jpg",
+//    "KogMaw.jpg",
+//    "Ksante.jpg",
+//    "Leblanc.jpg",
+//    "LeeSin.jpg",
+//    "Leona.jpg",
+//    "Lillia.jpg",
+//    "Lissandra.jpg",
+//    "Lucian.jpg",
+//    "Lulu.jpg",
+//    "Lux.jpg",
+//    "Malphite.jpg",
+//    "Malzahar.jpg",
+//    "Maokai.jpg",
+//    "MasterYi.jpg",
+//    "MissFortune.jpg",
+//    "MonkeyKing.jpg",
+//    "Mordekaiser.jpg",
+//    "Morgana.jpg",
+//    "Mundo.jpg",
+//    "Nami.jpg",
+//    "Nasus.jpg",
+//    "Nautilus.jpg",
+//    "Neeko.jpg",
+//    "Nidalee.jpg",
+//    "Nilah.jpg",
+//    "Nocturne.jpg",
+//    "Nunu.jpg",
+//    "Olaf.jpg",
+//    "Orianna.jpg",
+//    "Ornn.jpg",
+//    "Pantheon.jpg",
+//    "Poppy.jpg",
+//    "Pyke.jpg",
+//    "Qiyana.jpg",
+//    "Quinn.jpg",
+//    "Rakan.jpg",
+//    "Rammus.jpg",
+//    "RekSai.jpg",
+//    "Rell.jpg",
+//    "Renata.jpg",
+//    "Renekton.jpg",
+//    "Rengar.jpg",
+//    "Riven.jpg",
+//    "Rumble.jpg",
+//    "Ryze.jpg",
+//    "Samira.jpg",
+//    "Sejuani.jpg",
+//    "Senna.jpg",
+//    "Seraphine.jpg",
+//    "Sett.jpg",
+//    "Shaco.jpg",
+//    "Shen.jpg",
+//    "Shyvana.jpg",
+//    "Singed.jpg",
+//    "Sion.jpg",
+//    "Sivir.jpg",
+//    "Skarner.jpg",
+//    "Sona.jpg",
+//    "Soraka.jpg",
+//    "Swain.jpg",
+//    "Sylas.jpg",
+//    "Syndra.jpg",
+//    "TahmKench.jpg",
+//    "Taliyah.jpg",
+//    "Talon.jpg",
+//    "Taric.jpg",
+//    "Teemo.jpg",
+//    "Thresh.jpg",
+//    "Tristana.jpg",
+//    "Trundle.jpg",
+//    "Tryndamere.jpg",
+//    "TwistedFate.jpg",
+//    "Twitch.jpg",
+//    "Udyr.jpg",
+//    "Urgot.jpg",
+//    "Varus.jpg",
+//    "Vayne.jpg",
+//    "Veigar.jpg",
+//    "Velkoz.jpg",
+//    "Vex.jpg",
+//    "Vi.jpg",
+//    "Viego.jpg",
+//    "Viktor.jpg",
+//    "Vladimir.jpg",
+//    "Volibear.jpg",
+//    "Warwick.jpg",
+//    "Xayah.jpg",
+//    "Xerath.jpg",
+//    "Xinzhao.jpg",
+//    "Yasuo.jpg",
+//    "Yone.jpg",
+//    "Yorick.jpg",
+//    "Yuumi.jpg",
+//    "Zac.jpg",
+//    "Zed.jpg",
+//    "Zeri.jpg",
+//    "Ziggs.jpg",
+//    "Zilean.jpg",
+//    "Zoe.jpg",
+//    "Zyra.jpg"
+//);
+//$_SESSION['images'] = $images;
+
+?>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="StyleSheet.css" type="text/css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <ul class="header_links">
+        <li> <a href="index.php"> ГЛАВНАЯ </a> </li>
+        <li> <a href="all_heroes.php"> РАНДОМНИЙ ГЕРОЙ </a> </li>
+        <li> <a href="top_heroes.php"> РАНДОМНИЙ ГЕРОЙ ВЕРХНЬОЇ ЛІНІЇ </a> </li>
+        <li> <a href="midl_heroes.php"> РАНДОМНИЙ ГЕРОЙ СЕРЕДНБОЇ ЛІНІЇ </a> </li>
+        <li> <a href="jungle_heroes.php"> РАНДОМНИЙ ГЕРОЙ ЛІСОВОЇ ЛІНІЇ </a> </li>
+        <li> <a href="adc_heroes.php"> РАНДОМНИЙ ГЕРОЙ НИЖНЬОЇ ЛІНІЇ </a> </li>
+        <li> <a href="support_heroes.php"> РАНДОМНИЙ ГЕРОЙ ЛІНІЇ ПІДТРИМКИ </a> </li>
+    </ul>
+</header>
+    <div>  </div>
+<footer>
+
+</footer>
+</body>
+</html>
